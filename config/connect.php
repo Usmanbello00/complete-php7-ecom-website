@@ -26,10 +26,10 @@
 /**
  * Get and Set the environment variables.
  */
-$dbHost     = getenv("DB_HOST");
-$dbUsername = getenv("DB_USERNAME");
-$dbPassword = getenv("DB_PASSWORD");
-$database   = getenv("DB_DATABASE");
+$dbHost     = getenv("nnpcserver.mysql.database.azure.com");
+$dbUsername = getenv("nnpc");
+$dbPassword = getenv("Password@123");
+$database   = getenv("nnpcserver");
 
 $connection = new mysqli($dbHost, $dbUsername, $dbPassword, $database);
 
