@@ -29,7 +29,7 @@
 $dbHost     = getenv("nnpcserver.mysql.database.azure.com");
 $dbUsername = getenv("nnpc");
 $dbPassword = getenv("Password@123");
-$database   = getenv("nnpcserver");
+$database   = getenv("ecommerce");
 
 $connection = new mysqli($dbHost, $dbUsername, $dbPassword, $database);
 
